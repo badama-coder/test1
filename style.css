@@ -10,7 +10,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
 }
 header{
     width: 1280px;
@@ -133,6 +132,9 @@ header{
 
 .main{
     margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .hero-section{
     background-image: url(./1st\ .jpg);
