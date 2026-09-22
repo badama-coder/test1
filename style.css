@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+header{
+    width: 1280px;
+    height: 73px;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 10;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.px14{
+    font-size: 14px;
+}
+.px11{
+    font-size: 11px;
+}
+.f-w-700{
+    font-weight: 700;
+}
+.f-w-600{
+    font-weight: 600;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+
+}
+
+.part1{
+    display: flex;
+    gap: 12px;
+}
+.part1-1{
+    background-color: #D9EFF7;
+    height: 40px;
+    width: 40px;
+ 
+}
+.me{
+    font-size: 11px;
+    font-family: 'Inter';
+    color: #70787C;
+}
+.pt{
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+    color: #065161;
+}
+
+.part2{
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+}
+
+.de{
+    background-color: #2B697A;
+    width: 124.28px;
+    height: 40px;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.part3{
+    display: flex;
+    gap: 16px;
+    align-items: baseline;
+}
+
+.p3-1{
+    background-color: #ECF5FA;
+    width: 71.17px;
+    height: 24px;
+    gap: 4px;
+    padding: 4px 12px;
+}
+.en{
+    font-size: 11px;
+    font-weight: 700;
+
+}
+.fa-globe{
+    height: 15px;
+    width: 15px;
+
+}
+.co{
+    background-color: #D9EFF7 ;
+    color: #065161;
+    width: 86.55px;
+    height: 44px;
+    font-weight: 600;
+}
+.be{
+    background-color: #2B697A ;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 159.44px;
+    height: 48px;
+
+}
+.p3-4{
+    width: 32px;
+    height: 32px;
+    background-color: #065161;
+}
+.fa-user{
+    color: #FFFFFF;
+}
+
+.main{
+    margin-top: 73px;
+}
+.hero-section{
+    background-image: url(./1st\ .jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 671.75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.hero-blur{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.78) 85%, white);
+}
+.hero-text{
+    position: absolute;
+    margin-top: 80px;
+    flex-direction: column;
+
+
+}
+
+.pill-badges{
+    width: 286.75px;
+    height: 34px;
+    background-color: #FFFFFF;
+    gap: 8px;
+    margin-top: 48px;
+    margin-bottom: 16px ;
+    padding: 4px;
+    
+}
+.pill-badges-1{
+    width: 112.17px;
+    height: 24px;
+    background-color:  #194553;
+    color: #D9EFF7;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.pill-badges-3{
+    background-color: #194553;
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+}
+.pill-badges-2{
+    width: 129.58px;
+    height: 24px;
+}
+.pill-badges-2-1{
+    font-size: 11px ;
+    color: #194553;
+    font-weight: 600;
+}
+.main-headline{
+    flex-direction: column;
+
+}
+.main-headline-1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #D9EFF7;
+    margin-bottom: 8px;
+    font-family: 'Plus Jakarta Sans';
+}
+.main-headline-2{
+    font-size: 56px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans';
+}
+.main-headline-3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #D9EFF7 ; 
+    width: 635.23px;
+    height: 88px;
+    line-height: 29.25px;
+    margin-bottom: 24px ;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+
+}
+.feature-badges{
+    height: 92px;
+    gap: 12px;
+    display: flex;
+}
+
+.size-badge{
+    width: 215px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 9999px;
+    color: #194553;
+    padding: 12px 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.search{
+    width: 896px;
+    height: 68px;
+    background-color: #FFFFFF ;
+    gap: 10px;
+    margin-bottom: 95.75px;
+}
+.searchbox{
+    width: 260.86px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.divider{
+    height: 40px;
+    width: 1px;
+    color: #DAE4E9;
+    opacity: 0.3;
+
+}
+
+.search-3{
+    width: 300.8px;
+    height: 48px;
+    gap: 8.5px ;
+}
+.search-3-1{
+    width: 195.83px;
+    height: 48px;
+    background-color: #2B697A;
+    color: #FFFFFF;
+    gap: 8px;
+}
+.search-3-2{
+    width: 96.47px;
+    height: 48px;
+    background-color: #D9EFF7;
+    color: #065161;
+}
+
+.section2{
+    width: 1280px;
+    height: 1088px;
+    background-color: #F3FAFF ;
+    padding: 72px 48px;
+}
+.section2-part1{
+    width: 1184px;
+    height: 72px;
+    display: flex;
+    gap: 200px;
+
+}
+.s2-p1-left{
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.s2-p1-left-1{
+    display: flex;
+    color:#065161;
+    gap: 8px;
+}
+
+.s2-p1-left-2{
+    font-size: 40px;
+    width: 520px;
+    height: 48px;
+    color: #141D21;
+    font-weight: 900; 
+    font-family: 'Plus Jakarta Sans';
+}
+
+.s2-p2-right{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #40484B;
+}
+
+.section2-part2{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.cards-1-text, .cards-2-text, .cards-3-text, .cards-4-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cards-1{
+    background-image: linear-gradient(to bottom, rgba(25, 69, 83, 0),rgba(25, 69, 83, 0.4), rgba(25, 69, 83, 1) ), url(./huvsgul.jpg);
+    width: 680.66px;
+    height: 420px;
+}
+.cards-2{
+    background-image: linear-gradient(to bottom, rgba(25, 69, 83, 0),rgba(25, 69, 83, 0.4), rgba(25, 69, 83, 1) ) , url(./terkhiin\ tsagaan\ lake.jpg);
+    width: 479.33px;
+    height: 420px;
+}
+.cards-3{
+    background-image: linear-gradient(to bottom, rgba(25, 69, 83, 0),rgba(25, 69, 83, 0.4), rgba(25, 69, 83, 1) ), url(./horgiin\ togoo.jpg);
+    width: 479.33px;
+    height: 380px;
+}
+.cards-4{
+    background-image: linear-gradient(to bottom, rgba(25, 69, 83, 0),rgba(25, 69, 83, 0.4), rgba(25, 69, 83, 1) ) , url(./monastery.jpg);
+    width: 680.66px;
+    height: 380px;
+}
+
+.cards-1, .cards-2, .cards-3, .cards-4 {
+    object-fit: contain;
+    display: flex;
+    align-items: end;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 32px;
+}
+.cards1-1, .cards2-1, .cards3-1, .cards4-1 {
+    display: flex;
+    gap: 8px;
+}
+.cards1-1-1, .cards2-1-1, .cards3-1-1, .cards4-1-1 {
+    background-color: #D9EFF7 ;
+    border-radius: 9999px;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 12px;
+    color: #194553;
+}
+.cards1-1-2, .cards2-1-2, .cards3-1-2, .cards4-1-2 {
+    background-color: #FFFFFF;
+    opacity: 0.78;
+    border-radius: 9999px;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 12px;
+    color: #141D21;
+}
+.cards1-2, .cards2-2 {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.cards3-2, .cards4-2{
+    font-size: 22px ;
+    color: #FFFFFF
+}
+
+.cards1-3, .cards2-3, .cards3-3, .cards4-3 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #D9EFF7;
+    line-height: 20px;
+}
+.cards1-3, .cards4-3{
+    width:  497px;
+}
+.cards1-4, .cards2-4{
+    display: flex;
+    align-items: end;
+    height: 24px;
+    width: fit-content;
+    gap: 16px;
+}
+.cards1-4-1, .cards1-4-2, .cards2-4-1, .cards2-4-2{
+    display: flex;
+    gap: 4px;
+
+}
+.card-icon{
+    font-size: 13px;
+    color: #D9EFF7 ;
+}
+
