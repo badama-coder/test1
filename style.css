@@ -232,7 +232,7 @@ header{
 .size-badge{
     width: 215px;
     height: 44px;
-    background-color: #FFFFFF;
+    background-color:#E6EFF5 ;
     border-radius: 9999px;
     color: #194553;
     padding: 12px 16px;
@@ -379,6 +379,8 @@ header{
     height: fit-content;
     padding: 4px 12px;
     color: #194553;
+    line-height: 16px;
+    letter-spacing: 0.55px;
 }
 .cards1-1-2, .cards2-1-2, .cards3-1-2, .cards4-1-2 {
     background-color: #FFFFFF;
@@ -388,14 +390,21 @@ header{
     height: fit-content;
     padding: 4px 12px;
     color: #141D21;
+    line-height: 16px;
+    letter-spacing: 0.55px;
 }
 .cards1-2, .cards2-2 {
     font-size: 30px;
     color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans';
+    line-height: 38px;
+    letter-spacing: -0.45px;
 }
 .cards3-2, .cards4-2{
     font-size: 22px ;
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans';
+    line-height: 30px;
 }
 
 .cards1-3, .cards2-3, .cards3-3, .cards4-3 {
@@ -529,7 +538,8 @@ header{
 .s3-cards-4-2{
     font-size: 11px;
     color: #70787C;
-    
+    line-height: 16px;
+    letter-spacing: 0.55px;
 }
 .s3-cards-4-1{
     font-size: 13px;
@@ -596,6 +606,9 @@ header{
     background-color: #E6EFF5 ;
     padding: 4px 12px;
     font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.55px;
+    gap: 4px;
 }
 .section4{
     height: 933px;
@@ -606,4 +619,240 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 72px;
+}
+.section4-part2{
+    display: flex;
+    gap: 32px;
+    position: relative;
+}
+.s4-p2-cards-1, .s4-p2-cards-3{
+    background-color:  #FFFFFF;
+    padding: 48px;
+    border-radius: 16px;
+}
+.s4-p2-cards-1{
+    height: 513px;
+    width: 373.33px;
+}
+.s4-p2-cards-3{
+    height: 573px;
+    width: 373.33px;
+    margin-left: 405.33px;
+}
+.s4-p2-cards-line1, .s4-p2-cards2-line1, .s4-p2-cards3-line1{
+    background-color: #E6EFF5 ;
+    color: #40484B ;
+    padding: 4px 16px;
+    width: fit-content;
+    line-height: 16px;
+    letter-spacing: 0.55px;
+    margin-bottom: 16px;
+}
+.s4-p2-cardl1{
+    display: flex;
+    justify-content: space-between;
+}
+.s4-p2-cards-line2, .s4-p2-cards2-line3{
+    color: #141D21;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Plus Jakarta Sans';
+    letter-spacing: -0.72px;
+    margin-bottom: 4px;
+
+}
+span{
+    color: #70787C;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    font-weight: 400;
+}
+.s4-p2-cards-line3{
+    color: #065161;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+    margin-bottom: 16px;
+}
+
+.s4-p2-cards-part4{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 2px 32px 0px;
+    border-top: 1px #E6EFF5 solid;
+    
+}
+.p4-line1{
+    color: #70787C;
+    font-weight: 700;
+    letter-spacing: 0.55px;
+}
+.part5-line{
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+    color: #141D21 ;
+    line-height: 20px;
+    text-align: middle  ;
+}
+.fa-check{
+    color: #446744;
+}
+
+.lastline{
+    color: #70787C ;
+}
+.fa-circle-check{
+    color: #065161;
+    font-size: 14px;
+}
+.s4-p2-cards-line6, .s4-p2-cards2-line6{
+    background-color: #E6EFF5;
+    color: #065161;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.14px;
+    width: 277.3299865722656;
+    padding: 14px 24px;
+}
+.s4-p2-cards-2{
+    background: linear-gradient(to top, #FFFFFF01, #FFFFFF, #FFFFFF );
+    padding: 48px;
+    width: 373.33px;
+    height: 541px;
+    border-radius: 16px;
+    position: absolute;
+    top: -16px;
+    left: 405.33px;
+    box-shadow: 0 10px 25px #0000001A;
+}
+.s4-p2-cards2-line6{
+    background-color: #065161;
+    color: #FFFFFF;
+    gap: 8px;
+}
+.s4-p2-cards2-p1{
+    background-color: #D97706;
+    width: 186.67px;
+    height: 40px;
+    color: #FFFFFF;
+    font-weight: 900;
+    line-height: 16px;
+    letter-spacing: 0.55px;
+    display: flex;
+    gap: 4px;
+    font-size: 11px;
+    position: absolute;
+    top: -14px;
+    left: 93.32px;
+    padding: 4px 16px;
+}
+.section5{
+    width: 1280px;
+    height: 670px;
+    background-color: #E0EAEF;
+    padding: 72px 48px;
+}
+.s5-main{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px;
+    box-shadow: 0 1px 2px #0000000D;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    width: 1184px;
+    height: 526px;
+}
+.s5-left{
+    width: 425.33px;
+    height: 288px ;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.s5-left-p1{
+    display: flex;
+    align-items: center;
+    color: #065161;
+    gap: 8px;
+    letter-spacing: 0.55px;
+    line-height: 16px;
+}
+.s5-left-p2{
+    color: #141D21;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    width: 425.33px
+}
+.s5-left-p3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #40484B;
+    line-height: 24px;
+}
+.s5-left-p4{
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 16px;
+}
+.s5-left-p4-badge{
+    background-color: #E6EFF5;
+    width: fit-content;
+    padding: 8px 16px ;
+    gap: 8px;
+    color: #065161;
+    letter-spacing: 0.55px;
+    line-height: 16px;
+}
+.s5-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.rightboxsize{
+    width: 299.33px;
+    background-color: #ECF5FA;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.fa-hand-holding-heart, .fa-car-on, .fa-kitchen-set, .fa-people-group{
+    font-size: 23px;
+    color: #065161 ;
+}
+.s5-right-box-p2{
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    line-height: 26px;
+}
+.s5-right-box-p3{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #40484B;
+}
+.s5-right-box-p3{
+    display: flex;
+    gap: 12px;
+}
+.fb, .ins{
+    background-color: #D9EFF7;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.55px;
+    padding: 4px 16px;
+    margin-top: 4px;
 }
